@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+    <form action="cadastro.php" method="POST">
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+        <label>R.A:</label>
+        <input type="text" name="ra" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Curso:</label>
+        <input type="text" name="curso" required>
+        <button type="submit">Cadastrar</button>
+        <button type="submit">Relatorio</button> 
+       
+    </form>
+    <a href="exportar_xls.php"><button>Exportar para XLS</button>
+   
+
+
+
+
+</body>
+</html>
