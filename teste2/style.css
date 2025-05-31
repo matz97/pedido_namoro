@@ -1,0 +1,53 @@
+/* Estilização global */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #C0E4FF; /* Azul bebê */
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 350px;
+    margin: auto;
+}
+
+/* Texto */
+h1 {
+    color: #333;
+    font-size: 22px;
+}
+
+/* Botões */
+button {
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#sim {
+    background-color: #28a745;
+    color: white;
+}
+
+#nao {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Efeito do botão "Não" */
+@media screen and (max-width: 600px) {
+    #nao:hover {
+        transform: translateX(calc(-20px + 10%));
+    }
+}
